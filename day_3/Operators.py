@@ -146,5 +146,14 @@ print('Area of circle:',area_of_circle)
 circumference_of_circle = 2 * π * radius
 print('circumference of circle:', circumference_of_circle)
 
+radius = 7
+π = 3.14
+area_of_circle = π * radius **2 
+print('Area of circle:',area_of_circle)
+circumference_of_circle = 2 * π * radius
+print('circumference of circle:', circumference_of_circle)
+
+
+
 
 
