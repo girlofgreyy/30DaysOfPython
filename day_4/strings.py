@@ -104,4 +104,19 @@ challange = 'i love my life'
 print(challange.find('li'))
 print(challange.rfind('li'))
 
+# 26 Nisan 
+# format()
+first_name = 'Mine'
+last_name = 'Sunar'
+age = '23'
+job = 'Junior Product Manager'
+country = 'Turkey'
+sentence = 'I am {} {}. I am {} years old. I am a {}. I live in {}.'.format(first_name, last_name, age, job, country)
+print(sentence)
+
+radius = 10
+pi = 3.14
+area = pi * radius **2
+result = 'The area of a circle with radius {} is {}.'.format(str(radius), str(area))
+print(result)
 
