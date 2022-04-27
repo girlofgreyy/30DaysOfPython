@@ -120,3 +120,40 @@ area = pi * radius **2
 result = 'The area of a circle with radius {} is {}.'.format(str(radius), str(area))
 print(result)
 
+# EXERCISES
+# Exercise 1
+words = ['Thirty', 'Days', 'Of', 'Python']
+sentence = ' '.join(words)
+print(sentence)
+
+# Exercise 2
+words_1 = ['Coding', 'For', 'All']
+sentence_1 = ' '.join(words_1)
+print(sentence_1)
+
+# Exercise 3
+company = 'Coding For All'
+
+# Exercise 4
+print(company)
+
+# Exercise 5
+print(len(company))
+
+# Exercise 6
+print(company.upper())
+
+# Exercise 7
+print(company.lower())
+
+# Exercise 8
+print(company.capitalize())
+print(company.title())
+print(company.swapcase())
+
+# Exercise 9
+company = 'Coding For All'
+first_word_out = company[7:14]
+print(first_word_out)
+
+# Exercise 10
