@@ -156,4 +156,23 @@ company = 'Coding For All'
 first_word_out = company[7:14]
 print(first_word_out)
 
-# Exercise 10
+# Exercise 10 (I dot get it)
+challange = 'Coding For All'
+sub_string = 'Coding'
+print(challange.index(sub_string))
+
+challenge = 'coding for all'
+print(challenge.find('coding'))  
+
+# Exrcise 11
+challange = 'coding for all'
+print(challange.replace('coding', 'python'))
+
+# Exercise 12
+challenge = 'Python for Everyone'
+print(challenge.replace('Everyone', 'All'))
+
+# Exercise 13
+challenge = 'Coding For All'
+print(challenge.split())
+
