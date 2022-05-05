@@ -44,6 +44,8 @@ print('In every programming language it starts with \"Hello, World!\"')
 # "%.number of digitsf" - Floating point numbers with fixed precision
 
 
+
+
 a = 5
 b = 4
 print('{} + {} = {}'.format(a, b, a + b))
@@ -176,3 +178,54 @@ print(challenge.replace('Everyone', 'All'))
 challenge = 'Coding For All'
 print(challenge.split())
 
+# Exercise 14
+challenge = "Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
+print(challenge.split(','))
+
+# Exercise 15
+language = 'Coding For All'
+first_letter = language[0]
+print(first_letter) 
+
+# Exercise 16
+language = 'Coding For All'
+last_letter = language[-1]
+print(last_letter)
+
+# Exercise 17 
+language = 'Coding For All'
+tenth_letter = language[9]
+print(tenth_letter)
+
+# Exercise 18
+challenge ='Python For Everyone'
+PE = challenge[0:18:11]
+print(PE)
+
+# Exercise 19
+create ='Coding For All'
+co = create[0:13:11]
+print(co)
+
+# Exercise 20
+sentence = 'Coding For All'
+print(sentence.find('C'))
+
+# Exercise 21
+sentence = 'Coding For All'
+print(sentence.find('F'))
+
+# Exercise 22
+sentence = 'Coding For All People'
+print(sentence.rfind('l'))
+
+# Exercise 23
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence.find('because'))
+
+# Exercise 24
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+print(sentence.rfind('because'))
+
+# Exercise 25
+sentence = 'You cannot end a sentence with because because because is a conjunction'
